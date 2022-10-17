@@ -2,7 +2,7 @@ import Head from "next/head";
 import Navbar from "../components/Navbar";
 import Footer from "../components/Footer";
 import Image from "next/image";
-import Carousel from "../components/Carousel";
+// import Carousel from "../components/Carousel";
 // import styles from "../styles/Home.module.css";
 
 export default function Home() {
@@ -14,8 +14,7 @@ export default function Home() {
         <link rel="icon" href="/favicon.ico" />
       </Head>
       <Navbar />
-      {/* <Carousel /> */}
-      {/* <image src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSY3jM9rRTKU9APiYiCIx53cbxzLcWafiLwA9FB6_v3EvUgfX37G_KVufDV2w57N_wf8FI&usqp=CAU" /> */}
+
       <Footer />
     </div>
   );
